@@ -32,14 +32,14 @@ public class EmpMapperTest {
 		System.out.println("삭제갯수" + deleteCnt);
 	}
 	
-	//@Test
+	@Test
 	public void 사원등록() {
 		//vo 객체 생성
 		EmpVO vo = EmpVO.builder()
 				// .employeeId(301)
 				   .lastName("aaaa")
 				   .salary(10)
-				   .email("a1@a.a")
+				   .email("a3@a.a")
 				   .hireDate(new Date())
 				   .jobId("IT_PROG")
 				   .build();

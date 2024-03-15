@@ -1,5 +1,8 @@
 package com.example.demo.board;
 
+import java.util.Date;
+
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,13 +12,13 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class BoardVO {
-	String boardNo;
+	Integer boardNo;
 	String title;
 	String content;
 	String writer;
-	String writeDate;
-	String clickCnt;
+	Date writeDate;
+	Integer clickCnt;
 	String image;
+	
 }
